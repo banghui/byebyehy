@@ -215,4 +215,12 @@ export const messages = [
     coverImg: "./ritacover.jpg",
     profileImg: "./ritaprofile.png",
   },
+  {
+    name: "amelia",
+    title: "Bye2 Miss Chia",
+    msg:
+      "You’ll be greatly missed! It’s been a great working with you since I joined, until monetization separated us... 💔 Still remember you offered help and drove from your home CCK to help me moving out 😭 Why u so nice.. All the best for your next career & the bake shop! Keep in touch!",
+    coverImg: "./ameliacover.jpg",
+    profileImg: "./ameliaprofile.jpg",
+  },
 ];
