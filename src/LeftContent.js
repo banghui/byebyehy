@@ -34,7 +34,11 @@ function Row({ title, lastUpdated }) {
   return (
     <div className="row">
       <div style={{ marginRight: "10px" }}>
-        <img style={{ borderRadius: "4px" }} src="https://picsum.photos/48" />
+        <img
+          alt="randompic"
+          style={{ borderRadius: "4px" }}
+          src="https://picsum.photos/48"
+        />
       </div>
       <div className="rowContent">
         <div className="rowContentTitle">{title}</div>

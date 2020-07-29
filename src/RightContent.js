@@ -58,7 +58,7 @@ function Card({
         84; // 84 to account for margins + paddings
       setSpan(Math.ceil(totalHeight / 28)); //28 = grid height + margin
     }
-  }, [windowWidth, imgLoaded]);
+  }, [windowWidth, imgLoaded, coverImg]);
 
   const onLoad = e => {
     setImgLoaded(true);
