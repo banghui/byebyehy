@@ -223,4 +223,12 @@ export const messages = [
     coverImg: "./ameliacover.jpg",
     profileImg: "./ameliaprofile.jpg",
   },
+  {
+    name: "bram",
+    title: "ex-subordinate",
+    msg:
+      "good luck HY in your new endeavor! Working with you on Growth has been fun!",
+    coverImg: "./bramcover.jpg",
+    profileImg: "./bramprofile.jpg",
+  },
 ];
