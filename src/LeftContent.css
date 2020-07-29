@@ -1,0 +1,33 @@
+.leftContent {
+  position: sticky;
+  width: 320px;
+  min-width: 300px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  align-items: center;
+  height: 64px;
+}
+.rowContent {
+}
+.rowContentTitle {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 0;
+}
+.rowContentSubtitle {
+  line-height: 24px;
+  font-size: 14px;
+  color: #57585a;
+}
+
+.leftLink {
+  color: #008f79;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 28px;
+}

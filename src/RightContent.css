@@ -1,0 +1,91 @@
+.groupCard {
+  position: relative;
+  box-shadow: 0 3px 10px 0 rgba(44, 44, 45, 0.07),
+    inset 0 0 0 1px rgba(44, 44, 45, 0.07);
+  padding: 0 16px 16px 16px;
+  border-radius: 6px;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1000ms;
+}
+
+.groupCardUserContainer {
+  display: flex;
+  padding: 16px 0 16px 0;
+  align-items: center;
+}
+.groupCardUserImgContainer {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+.groupCardUserImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.groupCardUserNameContainer {
+  text-align: left;
+}
+.groupCardUserName {
+  font-size: 14px;
+  font-weight: 600;
+}
+.groupCardUserStatus {
+  color: "#57585a";
+  font-size: 14px;
+}
+
+.groupCardTitle {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.groupCardMsg {
+  color: "#57585a";
+  text-align: left;
+  line-height: 24px;
+}
+
+.groupCardImgContainer {
+  margin-left: -14px;
+}
+.groupCardImg {
+  width: calc(100% + 14px);
+  /* max-height: 800px; */
+  border-radius: 6px 6px 0 0;
+}
+
+.groupCardActions {
+  position: absolute;
+  color: "#57585a";
+  bottom: 32px;
+  font-size: 14px;
+  display: flex;
+  width: calc(100% - 32px);
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.groupCardActionsSegment div {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.masonry {
+  display: grid;
+  min-width: 640px;
+  grid-gap: 8px /* [1] Add some gap between rows and columns */;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* [2] Make columns adjust according to the available viewport */
+  grid-auto-rows: 20px; /* [3] Set the height for implicitly-created row track */
+}

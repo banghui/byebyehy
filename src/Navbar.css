@@ -1,0 +1,73 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 4px;
+  background: #fff;
+  box-shadow: inset 0 -1px 0 0 #f0f1f1;
+  align-items: center;
+  z-index: 2;
+  padding-right: 64px;
+  padding-left: 64px;
+  width: calc(100vw - 128px);
+}
+
+@media (min-width: 1440px) {
+  .navbar {
+    padding-right: calc((100vw - 1440px) / 2 + 64px);
+    padding-left: calc((100vw - 1440px) / 2 + 64px);
+    width: 1312px;
+  }
+}
+
+.navbarLeft {
+  display: flex;
+  align-items: center;
+}
+.navbarRight {
+  display: flex;
+  align-items: center;
+}
+.searchBarIconArrowDown {
+  height: 24px;
+}
+.searchBarIconSearch {
+  height: 16px;
+}
+.searchPlaceHolderText {
+  border-left: 1px solid #c5c5c6;
+  padding-left: 24px;
+  margin-left: 8px;
+  color: #c5c5c6;
+}
+.searchbarInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.searchbar {
+  display: flex;
+  margin-left: 48px;
+  margin-right: 48px;
+  box-shadow: inset 0 -1px 0 0 #f0f1f1;
+  align-items: center;
+  height: 44px;
+  background: #f0f1f1;
+  min-width: 600px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+}
+.sellButton {
+  background-color: #ff2636;
+  padding: 4px 24px;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  border-radius: 4px;
+}
