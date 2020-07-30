@@ -239,4 +239,12 @@ export const messages = [
     coverImg: "./davicover.jpg",
     profileImg: "./daviprofile.jpg",
   },
+  {
+    name: "Julia",
+    title: "Best Bubble Team mate!",
+    msg:
+      "Thanks HuiYi for being a lovely colleague that takes me out for bubble teas, even with social distancing, we could keep up our love for Bubble Tea! I also love your SG food recommendations! Hope we can keep this up! Good luck in your new job.",
+    coverImg: "./juliacover.jpg",
+    profileImg: "./juliaprofile.jpg",
+  },
 ];
