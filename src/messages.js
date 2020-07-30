@@ -231,4 +231,12 @@ export const messages = [
     coverImg: "./bramcover.jpg",
     profileImg: "./bramprofile.jpg",
   },
+  {
+    name: "davina",
+    title: "huiyiiiiiii",
+    msg:
+      "all the best for your next adventure and thanks for all the memories (will never forget muay thai HAHA). really enjoyed working together with you and pls visit us often next time! take care!",
+    coverImg: "./davicover.jpg",
+    profileImg: "./daviprofile.jpg",
+  },
 ];
