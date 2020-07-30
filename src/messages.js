@@ -77,7 +77,7 @@ export const messages = [
   },
   {
     title: "再见",
-    name: "Kyle",
+    name: "Papa Kyle",
     msg: `“If you’re brave enough to say goodbye, life will reward you with a new hello.” – Paulo Coelho`,
     coverImg: "./mingcover.jpg",
     profileImg: "./mingprofile.jpg",
@@ -246,5 +246,13 @@ export const messages = [
       "Thanks HuiYi for being a lovely colleague that takes me out for bubble teas, even with social distancing, we could keep up our love for Bubble Tea! I also love your SG food recommendations! Hope we can keep this up! Good luck in your new job.",
     coverImg: "./juliacover.jpg",
     profileImg: "./juliaprofile.jpg",
+  },
+  {
+    name: "Edoraemon",
+    title: "bye bye huiyi",
+    msg:
+      "was a good durian, thanks for it. and thanks for all your works in Carousell. good luck on your next jorney!",
+    coverImg: "./edocover.jpg",
+    profileImg: "./edoprofile.jpg",
   },
 ];
